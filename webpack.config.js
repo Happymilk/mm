@@ -3,6 +3,7 @@ module.exports = {
     output: {
         filename: 'index.js'
     },
+    target: 'node',
     devServer: {
         inline: true,
         port: 8080
